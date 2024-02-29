@@ -10,3 +10,7 @@ void main(List<String> args) {
 int numeroAleatorio([int max = 10]) {
   return Random().nextInt(max);
 }
+
+imprimirData(int dia, [int mes = 1, int ano = 1970]) {
+  print('$dia/$mes/$ano');
+}
