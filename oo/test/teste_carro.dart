@@ -13,5 +13,6 @@ void main() {
     print("A velocidade atual é: ${c1.frear()} km/h");
   }
 
+  c1.velocidadeAtual = 5;
   print("O carro parou com velocidade: ${c1.velocidadeAtual} km/h");
 }
